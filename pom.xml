@@ -3,22 +3,22 @@
     <parent>
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>plugin</artifactId>
-        <version>1.434</version>
+        <version>1.0</version>
     </parent>
 
     <groupId>org.jvnet.hudson.plugins</groupId>
-    <artifactId>chucknorris</artifactId>
+    <artifactId>ithinkispider</artifactId>
     <version>0.6-SNAPSHOT</version>
-    <name>ChuckNorris Plugin</name>
-    <description>Displays a picture of Chuck Norris (instead of Jenkins the butler) and a random Chuck Norris 'The Programmer' fact on each build page.</description>
-    <url>http://wiki.jenkins-ci.org/display/JENKINS/ChuckNorris+Plugin</url>
+    <name>ithinkispider Plugin</name>
+    <description>Displays a random ithinkispider 'The Programmer' fact on each build page.</description>
+    <url>https://github.com/mi-schi/ithinkispider-jenkins-plugin</url>
     <packaging>hpi</packaging>
 
     <developers>
         <developer>
-            <id>cliffano</id>
-            <name>Cliffano Subagio</name>
-            <email>blah@cliffano.com</email>
+            <id>mi-schi</id>
+            <name>Michael S</name>
+            <email>madsn@gmx.de</email>
             <timezone>+10</timezone>
         </developer>
     </developers>
@@ -126,9 +126,9 @@
     </reporting>
     
     <scm>
-        <connection>scm:git:git://github.com/jenkinsci/chucknorris-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:jenkinsci/chucknorris-plugin.git</developerConnection>
-        <url>https://github.com/jenkinsci/chucknorris-plugin</url>
+        <connection>scm:git:git://github.com/mi-schi/ithinkispider-jenkins-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:mi-schi/ithinkispider-jenkins-plugin.git</developerConnection>
+        <url>https://github.com/mi-schi/ithinkispider-jenkins-plugin</url>
     </scm>
 
     <pluginRepositories>
