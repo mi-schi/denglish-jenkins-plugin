@@ -7,11 +7,11 @@
     </parent>
 
     <groupId>org.jvnet.hudson.plugins</groupId>
-    <artifactId>ithinkispider</artifactId>
+    <artifactId>denglish</artifactId>
     <version>0.6-SNAPSHOT</version>
-    <name>ithinkispider Plugin</name>
-    <description>Displays a random ithinkispider 'The Programmer' fact on each build page.</description>
-    <url>https://github.com/mi-schi/ithinkispider-jenkins-plugin</url>
+    <name>denglish Plugin</name>
+    <description>Displays a random denglish 'The Programmer' fact on each build page.</description>
+    <url>https://github.com/mi-schi/denglish-jenkins-plugin</url>
     <packaging>hpi</packaging>
 
     <developers>
@@ -42,7 +42,7 @@
         <repository>
             <id>repo.jenkins-ci.org</id>
             <url>http://repo.jenkins-ci.org/public/</url>
-            <releases>  
+            <releases>
                 <enabled>true</enabled>
             </releases>
             <snapshots>
@@ -112,9 +112,9 @@
             </plugin>
             <plugin>
                 <artifactId>maven-pmd-plugin</artifactId>
-                <configuration>  
-                    <targetJdk>1.5</targetJdk>  
-                </configuration> 
+                <configuration>
+                    <targetJdk>1.5</targetJdk>
+                </configuration>
             </plugin>
             <plugin>
                 <artifactId>maven-site-plugin</artifactId>
@@ -124,11 +124,11 @@
             </plugin>
         </plugins>
     </reporting>
-    
+
     <scm>
-        <connection>scm:git:git://github.com/mi-schi/ithinkispider-jenkins-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:mi-schi/ithinkispider-jenkins-plugin.git</developerConnection>
-        <url>https://github.com/mi-schi/ithinkispider-jenkins-plugin</url>
+        <connection>scm:git:git://github.com/mi-schi/denglish-jenkins-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:mi-schi/denglish-jenkins-plugin.git</developerConnection>
+        <url>https://github.com/mi-schi/denglish-jenkins-plugin</url>
     </scm>
 
     <pluginRepositories>
@@ -137,5 +137,4 @@
             <url>http://repo.jenkins-ci.org/public/</url>
         </pluginRepository>
     </pluginRepositories>
-</project>  
-
+</project> 
