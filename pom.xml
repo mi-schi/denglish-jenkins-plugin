@@ -3,16 +3,23 @@
     <parent>
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>plugin</artifactId>
-        <version>1.0</version>
+        <version>1.532.3</version>
     </parent>
 
-    <groupId>org.jvnet.hudson.plugins</groupId>
+    <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>denglish</artifactId>
     <version>0.6-SNAPSHOT</version>
     <name>denglish Plugin</name>
     <description>Displays a random denglish 'The Programmer' fact on each build page.</description>
     <url>https://github.com/mi-schi/denglish-jenkins-plugin</url>
     <packaging>hpi</packaging>
+	
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>http://opensource.org/licenses/MIT</url>
+		</license>
+	</licenses>
 
     <developers>
         <developer>
@@ -22,12 +29,6 @@
             <timezone>+10</timezone>
         </developer>
     </developers>
-    <licenses>
-        <license>
-            <name>MIT License</name>
-            <url>LICENSE.txt</url>
-        </license>
-    </licenses>
 
     <dependencies>
         <dependency>
@@ -124,12 +125,6 @@
             </plugin>
         </plugins>
     </reporting>
-
-    <scm>
-        <connection>scm:git:git://github.com/mi-schi/denglish-jenkins-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:mi-schi/denglish-jenkins-plugin.git</developerConnection>
-        <url>https://github.com/mi-schi/denglish-jenkins-plugin</url>
-    </scm>
 
     <pluginRepositories>
         <pluginRepository>
