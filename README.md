@@ -4,7 +4,7 @@ denglish-jenkins-plugin
 Jenkins ithinkispider plugin
 
 Build this Plugin with maven. You need to add the following code to /usr/yourname/.m2/settings.xml
-
+```raw
 <settings>
    <mirrors>
      <mirror>
@@ -14,3 +14,4 @@ Build this Plugin with maven. You need to add the following code to /usr/yournam
      </mirror>
 	</mirrors>
 </settings>
+```
