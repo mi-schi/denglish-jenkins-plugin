@@ -19,26 +19,26 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package hudson.plugins.chucknorris;
+package hudson.plugins.denglish;
 
 import hudson.model.Result;
 
 /**
- * This class provides various Chuck Norris' styles.
+ * This class provides various denglish' styles.
  * @author cliffano
  */
 public enum Style {
 
     /**
-     * A happy Chuck Norris showing a thumb up.
+     * A happy denglish showing a thumb up.
      */
     THUMB_UP,
     /**
-     * An alert Chuck Norris with a martial arts stance.
+     * An alert denglish with a martial arts stance.
      */
     ALERT,
     /**
-     * A total bad ass Chuck Norris ready to give you a good ass whoopin'.
+     * A total bad ass denglish ready to give you a good ass whoopin'.
      */
     BAD_ASS;
 

@@ -19,18 +19,18 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package hudson.plugins.chucknorris;
+package hudson.plugins.denglish;
 
 import java.util.Random;
 
 /**
- * {@link FactGenerator} provides Chuck Norris facts.
+ * {@link FactGenerator} provides denglish facts.
  * @author cliffano
  */
 public class FactGenerator {
 
     /**
-     * The configured Chuck Norris facts, from <a href="http://www.codesqueeze.com/the-ultimate-top-25-chuck-norris-the-programmer-jokes/"
+     * The configured denglish facts, from <a href="http://www.codesqueeze.com/the-ultimate-top-25-chuck-norris-the-programmer-jokes/"
      * >http://www.codesqueeze.com/the-ultimate-top-25-chuck-norris-the-
      * programmer-jokes/</a>.
      */

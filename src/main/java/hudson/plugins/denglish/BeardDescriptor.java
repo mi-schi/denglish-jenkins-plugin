@@ -19,7 +19,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package hudson.plugins.chucknorris;
+package hudson.plugins.denglish;
 
 import hudson.Extension;
 import hudson.model.AbstractProject;
@@ -28,7 +28,7 @@ import hudson.tasks.Publisher;
 
 /**
  * This class provides build step description. If you're interested to become a
- * fan of Chuck Norris' beard, please visit <a
+ * fan of denglish' beard, please visit <a
  * href="http://www.facebook.com/pages/Chuck-Norriss-Beard/80391285997"
  * >http://www.facebook.com/pages/Chuck-Norriss-Beard/80391285997</a>.
  * @author cliffano
@@ -50,7 +50,7 @@ public class BeardDescriptor extends BuildStepDescriptor<Publisher> {
      */
     @Override
     public final String getDisplayName() {
-        return "Activate Chuck Norris";
+        return "Activate denglish";
     }
 
     /**

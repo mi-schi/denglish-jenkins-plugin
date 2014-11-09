@@ -19,7 +19,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package hudson.plugins.chucknorris;
+package hudson.plugins.denglish;
 
 import hudson.Launcher;
 import hudson.model.AbstractBuild;
@@ -71,7 +71,7 @@ public class CordellWalkerRecorder extends Recorder {
      */
     public CordellWalkerRecorder(final FactGenerator factGenerator) {
         this.factGenerator = factGenerator;
-        LOGGER.info("Chuck Norris is activated");
+        LOGGER.info("denglish is activated");
     }
 
     /**
