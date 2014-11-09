@@ -517,7 +517,7 @@ public class FactGenerator {
                     "that goes you a wet brushing on - Das geht Dich einen feuchten Kehricht an",
                     "you smart shitter - du Klugscheisser",
                     "that is but shit - das ist aber Scheiße",
-                    "why so ever - warum auch immer"}
+                    "why so ever - warum auch immer"};
 
     private static final Random RANDOM = new Random();
 
