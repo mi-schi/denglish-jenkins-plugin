@@ -6,6 +6,9 @@
     <script>
         window.onload = function () {
             document.getElementById('main-panel').style.backgroundImage = 'url(${rootURL}/plugin/denglish/images/<j:out value="${it.style.toString().toLowerCase()}"/>.jpg)';
+            document.getElementById('main-panel').style.backgroundRepeat = 'no-repeat';
+            document.getElementById('main-panel').style.backgroundPosition = 'bottom right';
+            document.getElementById('main-panel').style.paddingBottom = '220px';
         }
     </script>
 </j:jelly>
